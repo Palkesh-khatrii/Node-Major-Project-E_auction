@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Verification mail</title>
+</head>
+<body>
+    <h1>Welcome to eAuction</h1>
+    <p>You have sucessfully registered, Your login credential are attached below</p>
+    <h2>Email or Username : <%= email %> </h2>
+    <h2>Password : <%= password %></h2>
+    <h1>Click on the link below to verify your account</h1>
+
+   http://localhost:3000/verifyuser?emailid=<%= email %>
+</body>
+</html>
